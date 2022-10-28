@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+}
+
+p{
+    display: block;
+    text-align: center;
+    margin-left: 450px;
+    margin-right: 450px;
+
+    color: grey;
+}
+button{
+    background-color: white;
+    color: black;
+    border-color: grey;
+    width: 100px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 70%;
+}
