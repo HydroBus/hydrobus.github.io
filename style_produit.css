@@ -1,0 +1,42 @@
+.principale{
+  float: inline-block;
+}
+
+.gauche{
+  width: 50%;
+  float: left;
+  background-color: lightblue;
+}
+
+.img{
+  width: 40%;
+}
+
+
+.droite{
+  width: 50%;
+  float: right;
+  background-color: lightgreen;
+}
+
+#commande{
+  width: 75%;
+}
+
+#coupon{
+  width: 100%;
+  height: 100%;
+}
+
+
+.commande-prix{
+  float: inline-block;
+  border-bottom: thi;
+}
+.texte-droite{
+  text-align: right;
+}
+
+
+body{
+}
