@@ -10,40 +10,85 @@
 
     </header>
     <main>
-      <div class="principale">
-        <div class="gauche">
-          <div class="article1">
-            <img class="img1 img" src="hydrobus_produit_1.jpg" alt="">
-          </div>
-          <div class="article2">
-            <img class="img2 img" src="hydrobus_produit_2.jpg" alt="">
+      <h1>Your Cart</h1>
+      <div class="flexibleH">
+        <div style="width: 45%;">
+          <p>Not ready to checkout? Continue Shopping</p>
+          <div class="flexibleV">
+            <div class="card1 flexibleH">
+              <div style="width: 35%;">
+                <img class="img1 img" src="hydrobus_produit_1.jpg" alt="">
+              </div>
+              <div style="width: 65%;" class="flexibleH">
+                <div class="gauche">
+                  <h3>hydrobus classic</h3>
+                  <p>Size: classic</p>
+                  <p>Quantity: 1</p>
+                  <h3>$49999</h3>
+                </div>
+                <div class="droite flexibleV">
+                  <div style="height:80% ;"></div>
+                  <div>
+                    <p style="text-decoration: underline;" class="texte_droite">Remove</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr style="color: lightgrey;">
+            <div class="card2 flexibleH">
+              <div style="width: 35%;">
+                <img class="img2 img" src="hydrobus_produit_2.jpg" alt="">
+              </div>
+              <div style="width: 65%;" class="flexibleH">
+                <div class="gauche">
+                  <h3>hydrobus prenium</h3>
+                  <p>Size: mega</p>
+                  <p>Quantity: 1</p>
+                  <h3>$500000</h3>
+                </div>
+                <div class="droite flexibleV">
+                  <div style="height:80% ;"></div>
+                  <div>
+                    <p style="text-decoration: underline;" class="texte_droite">Remove</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="droite">
-          <h2>Order Summary</h2>
-          <form class="commande" action="index.html" method="post" id="commande">
-            <input type="text" name="coupon" value="" placeholder="Enter coupon code here" id="coupon">
-            <div class="commande-prix">
-              <div class="gauche">
-                <p>Subtotal</p>
-                <p>Shipping</p>
-              </div>
-              <div class="droite">
-                <p class="texte-droite">$200</p>
-                <p class="texte-droite">Calculated at the next step</p>
-              </div>
+        <div style="width: 10%;"></div>
+        <div style="width: 45%;">
+          <h3>Order Summary</h3>
+          <br>
+          <input style="width: 95%;height:50px;" type="text" placeholder="Enter coupon code here">
+          <div class="flexibleH">
+            <div class="gauche">
+              <p>Subtotal</p>
             </div>
-            <div class="total">
-              <div class="gauche">
-                <p>Total</p>
-              </div>
-              <div class="droite">
-                <p>$200</p>
-              </div>
+            <div style="width: 45%;">
+              <p class="texte_droite">$549999</p>
             </div>
-            <br>
-            <input type="submit" name="continuer-achat" value="Continue to checkout" id="continuer-achat">
-          </form>
+          </div>
+          <div class="flexibleH" style="border-bottom: black medium solid;">
+            <div class="gauche">
+              <p>Shipping</p>
+            </div>
+            <div style="width: 45%;">
+              <p style="color:lightgrey;" class="texte_droite">Calculated at the next step</p>
+            </div>
+          </div>
+          <br>
+          <div class="flexibleH">
+            <div class="gauche">
+              <p>Total</p>
+            </div>
+            <div style="width: 45%;">
+              <p class="texte_droite">$549999</p>
+            </div>
+          </div>
+          <br>
+          <br>
+          <button class="continue">Continue to checkout</button>
         </div>
       </div>
     </main>

@@ -1,42 +1,41 @@
-.principale{
-  float: inline-block;
+
+body{
+  padding: 20px;
+}
+
+.flexibleH{
+  display: flex;
 }
 
 .gauche{
   width: 50%;
   float: left;
-  background-color: lightblue;
+  height: auto;
 }
-
-.img{
-  width: 40%;
-}
-
 
 .droite{
   width: 50%;
   float: right;
-  background-color: lightgreen;
+  height: auto;
 }
 
-#commande{
-  width: 75%;
+.img{
+  width: 95%;
 }
 
-#coupon{
-  width: 100%;
-  height: 100%;
+h1,h2,h3,h4,h5,p{
+  font-family: sans-serif;
 }
 
-
-.commande-prix{
-  float: inline-block;
-  border-bottom: thi;
-}
-.texte-droite{
+.texte_droite{
   text-align: right;
 }
 
-
-body{
+button.continue{
+  width: 95%;
+  height: 60px;
+  font-size: 25px;
+  background-color: black;
+  border: black thin solid;
+  color: white;
 }
