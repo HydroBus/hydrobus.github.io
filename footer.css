@@ -1,0 +1,63 @@
+.navsec a{
+    text-decoration: none;
+    color: lightgray;
+}
+
+p.pf{
+    color: black;
+    margin: 0;
+    text-align: left;
+}
+
+.all-hydrobus{
+    padding-left: 10%;
+    padding-right: 5%;
+}
+
+.footer1{
+    float: left;
+    width: 35%;
+    margin-right: 5%;
+}
+
+.footer2{
+    display: flex;
+    width: 60%;
+    float: right;
+}
+
+.navsec{
+    padding-right: 0%;
+    width: 45%;
+}
+
+.email{
+    border: none;
+    width: 82%;
+    height: 40px;
+    padding-left: 3%;
+}
+
+
+@media screen and (max-width: 600px) {
+    .all-hydrobus{
+        padding-left: 0%;
+        padding-right: 0%;
+        margin: 5%;
+    }
+    .footer1{
+        width: 100%;
+        margin-right: 0%;
+    }
+    .footer2{
+        width: 100%;
+        float: none;
+    }
+    .navsec{
+        padding-right: 0%;
+        width: 100%;
+    }
+    .email{
+        width: 75%;
+    }
+}
