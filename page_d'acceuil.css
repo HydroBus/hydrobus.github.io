@@ -1,40 +1,15 @@
-nav{
-    background-color: white;
-    height: 50px;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    border-bottom: 1px solid gray;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 180px;
-    box-sizing: border-box;
+html, body {
+    margin: 0;
+    padding: 0;
 }
-nav.n1{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 50%;
-}
-nav.n2{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 50%;
-}
-a.a1{
-    text-decoration: none;
-    color: black;
-}
+
 h1{
     text-align: center;
 }
 p{
     display: block;
     text-align: center;
+    align-items: flex-start;
     margin-left: 600px;
     margin-right: 600px;
     color: grey;
