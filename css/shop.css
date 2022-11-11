@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700&display=swap');
+:root {
+    --bg-color : #eff2f6;
+    --bg-menu : #0d0d0d;
+    --tx-menu-color : #fff;
+    --tx-color : #000;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    background-color: var(--bg-color);
+}
+main .page-data {
+    width: 100%;
+    height: auto;
+    background-color: var(--bg-menu);
+    color: var(--tx-menu-color);
+}
+main .page-data .container {
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+main .page-data h1 {
+    margin: 0 0 10px 0;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    padding-top: 30px;
+}
+main .page-data p {
+    margin: 10px 0 0 0;
+    font-size: 18px;
+    line-height: 26px;
+    padding-bottom: 30px;
+    max-width: 500px;
+}
+main .data-main {
+    width: 80%;
+    height: auto;
+    margin: 0 10%;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+main .data-main .filter-title {
+    display: flex;
+    align-items: center;
+}
+main .data-main .filter-title h3 {
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 600;
+    margin: 0;
+}
+main .data-main .filter-title span {
+    font-size: 14px;
+    line-height: 20px;
+    color: #C4C4C4;
+    text-decoration-line: underline;
+    padding-left: 16px;
+}
+main .filters .category-name {
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 20px 0;
+    font-weight: 700;
+}
+main .filters input[type="checkbox"] {
+    display: none;
+}
+main .filters label {
+    display: flex;
+    margin: 10px 0;
+}
+main .filters input[type="checkbox"] + label::before {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: '';
+    font-size: 20px;  
+    color: #000;
+    margin-right: 10px;
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    font-family: "Material Symbols Outlined";
+}
+main .filters input[type="checkbox"]:checked + label::before {
+    content: '\e876';
+}
+main .data-main .order-selection .selection {
+    display: flex;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+main .data-main .order-selection .selection span {
+    padding: 5px 0;
+    font-size: 13px;
+    line-height: 26px;
+    opacity: 0.5;
+    margin-left: 10px;
+}
+main .data-main .order-selection .selection select {
+    padding: 5px 10px;
+    font-size: 14px;
+    line-height: 26px;
+    border: none;
+    background: none;
+    font-weight: 600;
+    outline: none;
+    margin-right: 10px;
+}
+main .data-main .order-selection .selection select option {
+    padding: 5px 10px;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 600;
+}
+main .data-main .order-selection .row-count {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+main .products {
+    width: 80%;
+    margin: 0 10%;
+}
+main .products .filters{
+    float: left;
+    width: 25%;
+}
