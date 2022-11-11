@@ -62,6 +62,7 @@ main .data-main .filter-title span {
     color: #C4C4C4;
     text-decoration-line: underline;
     padding-left: 16px;
+    cursor: pointer;
 }
 main .filters .category-name {
     display: block;
@@ -136,4 +137,110 @@ main .products {
 main .products .filters{
     float: left;
     width: 25%;
+}
+main .products .filters .colors {
+    display: flex;
+    margin: 10px 0;
+}
+main .products .filters .colors span {
+    display: block;
+    width: 23px;
+    height: 23px;
+    border: 1px solid black;
+    border-radius: 12.5px;
+    margin: 0 8px;
+    cursor: pointer;
+}
+main .products .cards {
+    float: right;
+    width: 75%;
+}
+main .products .cards {
+    float: right;
+    width: 75%;
+}
+main .products .cards .row {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+main .products .cards .card {
+    width: calc(100% / 3 - 40px);
+    height: auto;
+    text-decoration: none;
+    color: #000;
+}
+main .products .cards .card img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+main .products .cards .card .name{
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 700;
+}
+main .products .load-more {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    padding: 15px 80px;
+    margin: 40px auto 60px auto;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+}
+main .products .filters .colors .no-desktop {
+    display: none;
+}
+@media only screen and (max-width : 1080px) {
+    main .products .filters .colors .no-desktop {
+        display: block;
+    }
+    main .products .filters .colors {
+        display: flex;
+        justify-content: space-between;
+    }
+    main .products .filters .colors .no-mobile {
+        display: none;
+    }
+    main .products .filters .colors span {
+        margin: 0;
+    }
+    main .page-data {
+        background-color: transparent;
+        color: var(--tx-color);
+    }
+    main .page-data h1 {
+        text-align: center;
+    }
+    main .page-data p {
+        color: #999999;
+    }
+    main .products {
+        display: flex;
+        flex-direction: column;
+    }
+    main .products .filters {
+        width: 100%;
+    }
+    main .products .cards {
+        width: 100%;
+    }
+    main .data-main .filter-title {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    main .data-main .filter-title span {
+        padding: 0;
+    }
+    main .products .row {
+        display: flex;
+        flex-direction: column;
+    }
+    main .products .row .card {
+        width: 100%;
+        margin: 20px 0;
+    }
 }
