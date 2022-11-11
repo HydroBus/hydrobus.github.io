@@ -13,16 +13,31 @@
         <nav>
             <ul>
                 <li class="logo"><a href="/">HydroBus</a></li>
-                <li><a href="shop">Magasin</a></li>
-                <li><a href="article">Produit</a></li>
-                <li class="search">
+                <li class="no-mobile"><a href="shop">Magasin</a></li>
+                <li class="no-mobile"><a href="article">Produit</a></li>
+                <li class="search no-mobile">
                     <span class="material-symbols-outlined">search</span>
                     <input type="text" placeholder="Rechercher">
                 </li>
             </ul>
             <ul>
-                <li><a href="produit" class="cart"><span class="material-symbols-outlined">shopping_bag</span> 3</a></li>
-                <li style="margin-right: 0;"><a href="#">Login</a></li>
+                <li class="no-mobile"><a href="produit" class="cart"><span class="material-symbols-outlined">shopping_bag</span> 3</a></li>
+                <li class="no-mobile" style="margin-right: 0;"><a href="#">Compte</a></li>
+                <li class="mobile" style="margin: 0;" onclick="menuOC()">
+                    <span class="material-symbols-outlined">menu</span>
+                </li>
+                <script>
+                    var menu = false;
+                    function menuOC () {
+                        if (menu == false) {
+                            menu = true;
+                            document.getElementById('mobile').style.height = 'calc(100vh - 61px)';
+                        } else {
+                            menu = false;
+                            document.getElementById('mobile').style.height = '0';
+                        }
+                    }
+                </script>
             </ul>
         </nav>
     </header>
