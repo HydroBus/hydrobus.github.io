@@ -11,11 +11,10 @@ https://www.figma.com/file/YS88fIlPDDfvdcwiBBas1w/Ecommerce-Wireframe?node-id=78
 ## page Toinot
 
 ![toinoit](https://user-images.githubusercontent.com/114137244/198573558-5df8720a-d821-4665-81b1-d7ee76e88789.png)
-et
 
 
 ## page Fyléas
 
 ![fyfy](https://user-images.githubusercontent.com/114137244/198573858-4c73e407-023e-4f6d-b115-9f4fc722d891.png)
-![toinot2](https://user-images.githubusercontent.com/114137244/198573724-335cd4ab-956d-444b-b6ed-71b25584be33.png)
+![fyfy2](https://user-images.githubusercontent.com/114137244/198573724-335cd4ab-956d-444b-b6ed-71b25584be33.png)
 
