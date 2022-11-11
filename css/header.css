@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700&display=swap');
-html, body {
-    margin: 0;
-    padding: 0;
+:root {
+    --bg-color : #eff2f6;
+    --bg-menu : #0d0d0d;
+    --tx-menu-color : #fff;
+    --tx-color : #000;
 }
 main {
     padding-top: 61px;
@@ -78,6 +80,7 @@ header .mobile span{
     width: 100%;
     overflow-y: hidden;
     transition: height 0.4s;
+    font-family: 'Public Sans', sans-serif;
 }
 .mobile-menu ul {
     list-style: none;
