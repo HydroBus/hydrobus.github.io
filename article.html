@@ -3,10 +3,30 @@
 <head>
         <link rel="stylesheet" href="styles_johann.css" type="text/css" media="screen">
         <title >Article</title>
-
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="footer.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 
   <body>
+    <header>
+        <nav>
+            <ul>
+                <li class="logo"><a href="/">HydroBus</a></li>
+                <li><a href="shop">Magasin</a></li>
+                <li><a href="article">Produit</a></li>
+                <li class="search">
+                    <span class="material-symbols-outlined">search</span>
+                    <input type="text" placeholder="Rechercher">
+                </li>
+            </ul>
+            <ul>
+                <li><a href="produit" class="cart"><span class="material-symbols-outlined">shopping_bag</span> 3</a></li>
+                <li style="margin-right: 0;"><a href="#">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
     <div class="cadre-diapo">
       <img class="diapo" src="images/1.jpg" alt>
       <img class="diapo" src="images/2.jpg" alt>
@@ -41,6 +61,7 @@ function affichage(n) {
 }
 
 </script>
+    </main>
 
     </body>
 
